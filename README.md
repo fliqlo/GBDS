@@ -4,10 +4,17 @@ Organization: GBDS \
 Teams: \
 Dealer/Distributor: Chiong, Rie \
 TSS: Fuentes, John Michael \
-DSP: Dinoy, Christine \
+DSP: 
+	(1):
+	 Dinoy, Christine \
 	 Gica, Grace \
 	 Lopez, Gina Grace \
 	 Dacula, Paquito \
+	(2):
+	 Baculo, Jerixx \
+	 Topez, Fermin \
+	 Dandayo, Ronnel \
+	 Pormento, Estemark \
 Driver: Salig, Juliven \
 		Arances, Mario \
 		Alias, Jerome \
