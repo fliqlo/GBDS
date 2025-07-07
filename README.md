@@ -1,5 +1,5 @@
 This files is for documentation only. \
-Encoded by: fliqlo@gbds.org \
+Encoded by: encoder@gbds.org \
 Organization: GBDS \
 Teams: \
 Dealer/Distributor: Chiong, Rie \
@@ -22,5 +22,5 @@ Truckman: Buason, Nelboy \
 		  Alias, John \
 		  Salig, Jovani \
 Checker: Talledo, Sarah \
-Hauler: Alias, Glenn
-
+Hauler: Alias, Glenn \
+Encoder: ...... 
