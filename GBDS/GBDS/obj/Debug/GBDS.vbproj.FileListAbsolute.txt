@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\GBDS\GBDS\bin\Debug\GBDS.exe.config
+C:\Users\User\source\repos\GBDS\GBDS\bin\Debug\GBDS.exe
+C:\Users\User\source\repos\GBDS\GBDS\bin\Debug\GBDS.pdb
+C:\Users\User\source\repos\GBDS\GBDS\bin\Debug\GBDS.xml
+C:\Users\User\source\repos\GBDS\GBDS\obj\Debug\GBDS.vbproj.AssemblyReference.cache
+C:\Users\User\source\repos\GBDS\GBDS\obj\Debug\GBDS.Form1.resources
+C:\Users\User\source\repos\GBDS\GBDS\obj\Debug\GBDS.Resources.resources
+C:\Users\User\source\repos\GBDS\GBDS\obj\Debug\GBDS.vbproj.GenerateResource.cache
+C:\Users\User\source\repos\GBDS\GBDS\obj\Debug\GBDS.vbproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GBDS\GBDS\obj\Debug\GBDS.exe
+C:\Users\User\source\repos\GBDS\GBDS\obj\Debug\GBDS.xml
+C:\Users\User\source\repos\GBDS\GBDS\obj\Debug\GBDS.pdb
+C:\Users\User\source\repos\GBDS\GBDS\obj\Debug\GBDS.Form2.resources
