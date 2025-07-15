@@ -263,6 +263,7 @@ Partial Class Form2
         Me.Label171 = New System.Windows.Forms.Label()
         Me.Label172 = New System.Windows.Forms.Label()
         Me.CashBreakGB = New System.Windows.Forms.GroupBox()
+        Me.GBDSFormatDoc = New System.Windows.Forms.PictureBox()
         Me.Label185 = New System.Windows.Forms.Label()
         Me.Label184 = New System.Windows.Forms.Label()
         Me.Label183 = New System.Windows.Forms.Label()
@@ -313,13 +314,16 @@ Partial Class Form2
         Me.Label155 = New System.Windows.Forms.Label()
         Me.Label182 = New System.Windows.Forms.Label()
         Me.CashBreakBtn = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.PrintDocBtn = New System.Windows.Forms.Button()
         Me.ClearBtn = New System.Windows.Forms.Button()
+        Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
+        Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.SalesGB.SuspendLayout()
         CType(Me.ClosePictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ContainersGB.SuspendLayout()
         Me.CashRemCompGB.SuspendLayout()
         Me.CashBreakGB.SuspendLayout()
+        CType(Me.GBDSFormatDoc, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -2822,6 +2826,7 @@ Partial Class Form2
         'CashBreakGB
         '
         Me.CashBreakGB.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.CashBreakGB.Controls.Add(Me.GBDSFormatDoc)
         Me.CashBreakGB.Controls.Add(Me.Label185)
         Me.CashBreakGB.Controls.Add(Me.Label184)
         Me.CashBreakGB.Controls.Add(Me.Label183)
@@ -2878,6 +2883,17 @@ Partial Class Form2
         Me.CashBreakGB.TabIndex = 227
         Me.CashBreakGB.TabStop = False
         Me.CashBreakGB.Text = "Cash Breakdown"
+        '
+        'GBDSFormatDoc
+        '
+        Me.GBDSFormatDoc.BackColor = System.Drawing.Color.Transparent
+        Me.GBDSFormatDoc.Image = CType(resources.GetObject("GBDSFormatDoc.Image"), System.Drawing.Image)
+        Me.GBDSFormatDoc.Location = New System.Drawing.Point(116, -20)
+        Me.GBDSFormatDoc.Name = "GBDSFormatDoc"
+        Me.GBDSFormatDoc.Size = New System.Drawing.Size(485, 680)
+        Me.GBDSFormatDoc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.GBDSFormatDoc.TabIndex = 263
+        Me.GBDSFormatDoc.TabStop = False
         '
         'Label185
         '
@@ -3344,20 +3360,20 @@ Partial Class Form2
         Me.CashBreakBtn.Text = "                " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "CASH BREAKDOWN"
         Me.CashBreakBtn.UseVisualStyleBackColor = False
         '
-        'Button1
+        'PrintDocBtn
         '
-        Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.ForeColor = System.Drawing.Color.Transparent
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(561, 663)
-        Me.Button1.Name = "Button1"
-        Me.Button1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button1.Size = New System.Drawing.Size(93, 103)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "                " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PRINT"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.PrintDocBtn.BackColor = System.Drawing.Color.Transparent
+        Me.PrintDocBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PrintDocBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PrintDocBtn.ForeColor = System.Drawing.Color.Transparent
+        Me.PrintDocBtn.Image = CType(resources.GetObject("PrintDocBtn.Image"), System.Drawing.Image)
+        Me.PrintDocBtn.Location = New System.Drawing.Point(561, 663)
+        Me.PrintDocBtn.Name = "PrintDocBtn"
+        Me.PrintDocBtn.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.PrintDocBtn.Size = New System.Drawing.Size(93, 103)
+        Me.PrintDocBtn.TabIndex = 4
+        Me.PrintDocBtn.Text = "                " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PRINT"
+        Me.PrintDocBtn.UseVisualStyleBackColor = False
         '
         'ClearBtn
         '
@@ -3374,6 +3390,13 @@ Partial Class Form2
         Me.ClearBtn.Text = "                " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "CLEAR FIELDS" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.ClearBtn.UseVisualStyleBackColor = False
         '
+        'PrintDocument1
+        '
+        '
+        'PrintDialog1
+        '
+        Me.PrintDialog1.UseEXDialog = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -3381,7 +3404,7 @@ Partial Class Form2
         Me.BackColor = System.Drawing.Color.Maroon
         Me.ClientSize = New System.Drawing.Size(1434, 769)
         Me.Controls.Add(Me.ClearBtn)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.PrintDocBtn)
         Me.Controls.Add(Me.CashBreakGB)
         Me.Controls.Add(Me.CashBreakBtn)
         Me.Controls.Add(Me.CashRemCompGB)
@@ -3407,6 +3430,7 @@ Partial Class Form2
         Me.CashRemCompGB.PerformLayout()
         Me.CashBreakGB.ResumeLayout(False)
         Me.CashBreakGB.PerformLayout()
+        CType(Me.GBDSFormatDoc, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -3702,6 +3726,9 @@ Partial Class Form2
     Friend WithEvents Label185 As Label
     Friend WithEvents Label184 As Label
     Friend WithEvents CashBreakBtn As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents PrintDocBtn As Button
     Friend WithEvents ClearBtn As Button
+    Friend WithEvents GBDSFormatDoc As PictureBox
+    Friend WithEvents PrintDocument1 As Printing.PrintDocument
+    Friend WithEvents PrintDialog1 As PrintDialog
 End Class

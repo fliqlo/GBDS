@@ -1,6 +1,10 @@
 ﻿Public Class Form2
+
+    Public BG As Image
+
     Private Sub ClosePictureBox_Click(sender As Object, e As EventArgs) Handles ClosePictureBox.Click
         Me.Close()
+
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -225,5 +229,16 @@
 
     Private Sub ClearBtn_Click(sender As Object, e As EventArgs) Handles ClearBtn.Click
 
+    End Sub
+
+    Private Sub PrintDocBtn_Click(sender As Object, e As EventArgs) Handles PrintDocBtn.Click
+
+        If PrintDialog1.ShowDialog() = DialogResult.OK Then
+            PrintDocument1.Print()
+        End If
+    End Sub
+
+    Private Sub PrintDocument1_PrintPage(sender As Object, e As Printing.PrintPageEventArgs) Handles PrintDocument1.PrintPage
+        e.Graphics.DrawImage(GBDSFormatDoc.Image, 0, 0)
     End Sub
 End Class
