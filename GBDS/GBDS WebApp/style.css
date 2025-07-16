@@ -1,0 +1,28 @@
+body {
+	background-color: #990000;
+}
+label[id=cali_case] {
+	color: #ffffff;
+	font-family: monospace;
+	font-size: 5mm;
+}
+label[id=amount_cb] {
+	color: #ffffff;
+	font-family: monospace;
+	font-size: 5mm;
+}
+label[id=product] {
+	margin-right: 60px;
+}
+label[id=no_cases] {
+	margin-right: 60px;
+}
+label[id=cali_case] {
+	margin-right: 30px;
+}
+label[id=cali_can] {
+	color:#ffffff;
+}
+input[id=textbox_cali] {
+	margin-right: 30px;
+}

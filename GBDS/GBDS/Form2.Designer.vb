@@ -1755,7 +1755,7 @@ Partial Class Form2
         'ClosePictureBox
         '
         Me.ClosePictureBox.Image = CType(resources.GetObject("ClosePictureBox.Image"), System.Drawing.Image)
-        Me.ClosePictureBox.Location = New System.Drawing.Point(1338, 3)
+        Me.ClosePictureBox.Location = New System.Drawing.Point(625, 3)
         Me.ClosePictureBox.Name = "ClosePictureBox"
         Me.ClosePictureBox.Size = New System.Drawing.Size(29, 27)
         Me.ClosePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -1851,7 +1851,7 @@ Partial Class Form2
         Me.ContainersGB.Controls.Add(Me.Label94)
         Me.ContainersGB.Controls.Add(Me.Label95)
         Me.ContainersGB.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ContainersGB.Location = New System.Drawing.Point(784, 36)
+        Me.ContainersGB.Location = New System.Drawing.Point(40, 51)
         Me.ContainersGB.Name = "ContainersGB"
         Me.ContainersGB.Size = New System.Drawing.Size(638, 601)
         Me.ContainersGB.TabIndex = 139
@@ -2438,7 +2438,7 @@ Partial Class Form2
         Me.CashRemCompGB.Controls.Add(Me.Label171)
         Me.CashRemCompGB.Controls.Add(Me.Label172)
         Me.CashRemCompGB.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CashRemCompGB.Location = New System.Drawing.Point(689, 152)
+        Me.CashRemCompGB.Location = New System.Drawing.Point(678, 57)
         Me.CashRemCompGB.Name = "CashRemCompGB"
         Me.CashRemCompGB.Size = New System.Drawing.Size(638, 601)
         Me.CashRemCompGB.TabIndex = 190
@@ -2827,10 +2827,10 @@ Partial Class Form2
         'CashBreakGB
         '
         Me.CashBreakGB.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.CashBreakGB.Controls.Add(Me.GBDSFormatDoc)
         Me.CashBreakGB.Controls.Add(Me.Label185)
         Me.CashBreakGB.Controls.Add(Me.Label184)
         Me.CashBreakGB.Controls.Add(Me.Label183)
+        Me.CashBreakGB.Controls.Add(Me.ContainersGB)
         Me.CashBreakGB.Controls.Add(Me.Label181)
         Me.CashBreakGB.Controls.Add(Me.TextBox50)
         Me.CashBreakGB.Controls.Add(Me.TextBox51)
@@ -2878,7 +2878,7 @@ Partial Class Form2
         Me.CashBreakGB.Controls.Add(Me.Label155)
         Me.CashBreakGB.Controls.Add(Me.Label182)
         Me.CashBreakGB.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CashBreakGB.Location = New System.Drawing.Point(720, 56)
+        Me.CashBreakGB.Location = New System.Drawing.Point(733, 49)
         Me.CashBreakGB.Name = "CashBreakGB"
         Me.CashBreakGB.Size = New System.Drawing.Size(638, 601)
         Me.CashBreakGB.TabIndex = 227
@@ -2889,7 +2889,7 @@ Partial Class Form2
         '
         Me.GBDSFormatDoc.BackColor = System.Drawing.Color.Transparent
         Me.GBDSFormatDoc.Image = CType(resources.GetObject("GBDSFormatDoc.Image"), System.Drawing.Image)
-        Me.GBDSFormatDoc.Location = New System.Drawing.Point(116, -20)
+        Me.GBDSFormatDoc.Location = New System.Drawing.Point(798, 31)
         Me.GBDSFormatDoc.Name = "GBDSFormatDoc"
         Me.GBDSFormatDoc.Size = New System.Drawing.Size(485, 680)
         Me.GBDSFormatDoc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -3403,13 +3403,13 @@ Partial Class Form2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Maroon
-        Me.ClientSize = New System.Drawing.Size(1434, 769)
+        Me.ClientSize = New System.Drawing.Size(1452, 769)
+        Me.Controls.Add(Me.GBDSFormatDoc)
         Me.Controls.Add(Me.ClearBtn)
-        Me.Controls.Add(Me.PrintDocBtn)
         Me.Controls.Add(Me.CashBreakGB)
-        Me.Controls.Add(Me.CashBreakBtn)
         Me.Controls.Add(Me.CashRemCompGB)
-        Me.Controls.Add(Me.ContainersGB)
+        Me.Controls.Add(Me.PrintDocBtn)
+        Me.Controls.Add(Me.CashBreakBtn)
         Me.Controls.Add(Me.CashRemCompBtn)
         Me.Controls.Add(Me.ConRetBtn)
         Me.Controls.Add(Me.SalesBtn)
