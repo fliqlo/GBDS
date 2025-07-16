@@ -45,45 +45,35 @@
     End Sub
     'Cali a
     Private Sub CBTxt_TextChanged(sender As Object, e As EventArgs) Handles CBTxt.TextChanged
-        Dim Cali_Price = 500 + 120
-        CBLbl.Text = CBTxt.Text * Cali_Price
-        'TotalSalesLbl2.Text = CBLbl.Text
+        CBLbl.Text = CBTxt.Text * 620
     End Sub
     'Cali b
     Private Sub CBbTxt_TextChanged(sender As Object, e As EventArgs) Handles CBbTxt.TextChanged
-        Dim Calib_Price = 620 / 24 + 1.5
-        CBbLbl.Text = CBbTxt.Text * Calib_Price
-        'TotalSalesLbl2.Text = CBbLbl.Text
+        CBbLbl.Text = CBbTxt.Text * 27.33
     End Sub
     'Cali Can
     Private Sub CCTxt_TextChanged(sender As Object, e As EventArgs) Handles CCTxt.TextChanged
-        Dim CC_Price = 650
-        CcLbl.Text = CCTxt.Text * CC_Price
+        CcLbl.Text = CCTxt.Text * 650
     End Sub
     'Magnolia Healthy a
     Private Sub HTTxt_TextChanged(sender As Object, e As EventArgs) Handles HTTxt.TextChanged
-        Dim HT_Price = 307
-        HTLbl.Text = HTTxt.Text * HT_Price
+        HTLbl.Text = HTTxt.Text * 307
     End Sub
     'Magnolia Healthy b
     Private Sub HTbTxt_TextChanged(sender As Object, e As EventArgs) Handles HTbTxt.TextChanged
-        Dim HTb_Price = 11
-        HtbLbl.Text = HTbTxt.Text * HTb_Price
+        HtbLbl.Text = HTbTxt.Text * 11
     End Sub
     'Pam a
     Private Sub PAMBTxt_TextChanged(sender As Object, e As EventArgs) Handles PAMBTxt.TextChanged
-        Dim PAMB_Price = 1567
-        PAMBLbl.Text = PAMBTxt.Text * PAMB_Price
+        PAMBLbl.Text = PAMBTxt.Text * 1567
     End Sub
     'Pam b
     Private Sub PAMBbTxt_TextChanged(sender As Object, e As EventArgs) Handles PAMBbTxt.TextChanged
-        Dim PAMBb_Price = 1447 / 24 + 1.5
-        PAMBbLbl.Text = PAMBbTxt.Text * PAMBb_Price
+        PAMBbLbl.Text = PAMBbTxt.Text * 61.79
     End Sub
     'Pam c
     Private Sub PAMCTxt_TextChanged(sender As Object, e As EventArgs) Handles PAMCTxt.TextChanged
-        Dim PAMC_Price = 1582
-        PAMCLbl.Text = PAMCTxt.Text * PAMC_Price
+        PAMCLbl.Text = PAMCTxt.Text * 1582
     End Sub
     'Kirin a
     Private Sub KRBTxt_TextChanged(sender As Object, e As EventArgs) Handles KRBTxt.TextChanged
@@ -91,7 +81,7 @@
     End Sub
     'Kirin b
     Private Sub KRBbTxt_TextChanged(sender As Object, e As EventArgs) Handles KRBbTxt.TextChanged
-        KRBbLbl.Text = KRBbTxt.Text * 1728 / 24 + 1.5
+        KRBbLbl.Text = KRBbTxt.Text * 73.5
     End Sub
 
     Private Sub KRCTxt_TextChanged(sender As Object, e As EventArgs) Handles KRCTxt.TextChanged
@@ -103,7 +93,7 @@
     End Sub
 
     Private Sub SMZBbTxt_TextChanged(sender As Object, e As EventArgs) Handles SMZBbTxt.TextChanged
-        SMZBbLbl.Text = SMZBbTxt.Text * 1052 / 24 + 1.5
+        SMZBbLbl.Text = SMZBbTxt.Text * 45.33
     End Sub
 
     Private Sub SMLBTxt_TextChanged(sender As Object, e As EventArgs) Handles SMLBTxt.TextChanged
@@ -111,7 +101,7 @@
     End Sub
 
     Private Sub SMLBbTxt_TextChanged(sender As Object, e As EventArgs) Handles SMLBbTxt.TextChanged
-        SMLBbLbl.Text = SMLBbTxt.Text * 1005 / 24 + 1.5
+        SMLBbLbl.Text = SMLBbTxt.Text * 43.375
     End Sub
 
     Private Sub SMLCTxt_TextChanged(sender As Object, e As EventArgs) Handles SMLCTxt.TextChanged
@@ -123,7 +113,7 @@
     End Sub
 
     Private Sub FBbTxt_TextChanged(sender As Object, e As EventArgs) Handles FBbTxt.TextChanged
-        FBbLbl.Text = FBbTxt.Text * 832 / 24 + 1.5
+        FBbLbl.Text = FBbTxt.Text * 36.16
     End Sub
 
     Private Sub FBACTxt_TextChanged(sender As Object, e As EventArgs) Handles FBACTxt.TextChanged
@@ -135,7 +125,7 @@
     End Sub
 
     Private Sub PPbTxt_TextChanged(sender As Object, e As EventArgs) Handles PPbTxt.TextChanged
-        PPbLbl.Text = PPbTxt.Text * 852 / 24 + 1.5
+        PPbLbl.Text = PPbTxt.Text * 37
     End Sub
 
     Private Sub PPGTxt_TextChanged(sender As Object, e As EventArgs) Handles PPGTxt.TextChanged
@@ -143,7 +133,7 @@
     End Sub
 
     Private Sub PPGbTxt_TextChanged(sender As Object, e As EventArgs) Handles PPGbTxt.TextChanged
-        PPGBbLbl.Text = PPGbTxt.Text * 1020 / 24 + 1.5
+        PPGBbLbl.Text = PPGbTxt.Text * 44
     End Sub
 
     Private Sub PLTxt_TextChanged(sender As Object, e As EventArgs) Handles PLTxt.TextChanged
@@ -151,7 +141,7 @@
     End Sub
 
     Private Sub PLbTxt_TextChanged(sender As Object, e As EventArgs) Handles PLbTxt.TextChanged
-        PLbLbl.Text = PLbTxt.Text * 596 / 24 + 111
+        PLbLbl.Text = PLbTxt.Text * 135.83
     End Sub
 
     Private Sub RHSTxt_TextChanged(sender As Object, e As EventArgs) Handles RHSTxt.TextChanged
@@ -159,7 +149,7 @@
     End Sub
 
     Private Sub RHSbTxt_TextChanged(sender As Object, e As EventArgs) Handles RHSbTxt.TextChanged
-        RHSbLbl.Text = RHSbTxt.Text * 913 / 24 + 1.5
+        RHSbLbl.Text = RHSbTxt.Text * 39.54
     End Sub
 
     Private Sub RHPTxt_TextChanged(sender As Object, e As EventArgs) Handles RHPTxt.TextChanged
@@ -167,7 +157,7 @@
     End Sub
 
     Private Sub RHPbTxt_TextChanged(sender As Object, e As EventArgs) Handles RHPbTxt.TextChanged
-        RHPbLbl.Text = RHPbTxt.Text * 614 / 12 + 4.5
+        RHPbLbl.Text = RHPbTxt.Text * 55.66
     End Sub
 
     Private Sub RHLTxt_TextChanged(sender As Object, e As EventArgs) Handles RHLTxt.TextChanged
@@ -175,7 +165,7 @@
     End Sub
 
     Private Sub RHLbTxt_TextChanged(sender As Object, e As EventArgs) Handles RHLbTxt.TextChanged
-        RHLbLbl.Text = RHLbTxt.Text * 626 / 6 + 4.5
+        RHLbLbl.Text = RHLbTxt.Text * 108.83
     End Sub
 
     Private Sub RH500CTxt_TextChanged(sender As Object, e As EventArgs) Handles RH500CTxt.TextChanged
@@ -187,7 +177,7 @@
     End Sub
 
     Private Sub RHSLbTxt_TextChanged(sender As Object, e As EventArgs) Handles RHSLbTxt.TextChanged
-        RHSLbLbl.Text = RHSLbTxt.Text * 674 / 6 + 4.5
+        RHSLbLbl.Text = RHSLbTxt.Text * 116.83
     End Sub
 
     Private Sub SMFBTxt_TextChanged(sender As Object, e As EventArgs) Handles SMFBTxt.TextChanged
@@ -195,7 +185,7 @@
     End Sub
 
     Private Sub SMFBbTxt_TextChanged(sender As Object, e As EventArgs) Handles SMFBbTxt.TextChanged
-        SMFBbLbl.Text = SMFBbTxt.Text * 851 / 24 + 1.5
+        SMFBbLbl.Text = SMFBbTxt.Text * 36.958
     End Sub
 
     Private Sub SMFCTxt_TextChanged(sender As Object, e As EventArgs) Handles SMFCTxt.TextChanged
@@ -207,7 +197,7 @@
     End Sub
 
     Private Sub GE320bTxt_TextChanged(sender As Object, e As EventArgs) Handles GE320bTxt.TextChanged
-        GE320bLbl.Text = GE320bTxt.Text * 703 / 24 + 1.5
+        GE320bLbl.Text = GE320bTxt.Text * 30.791
     End Sub
 
     Private Sub GEKTxt_TextChanged(sender As Object, e As EventArgs) Handles GEKTxt.TextChanged
@@ -215,19 +205,30 @@
     End Sub
 
     Private Sub GEKbTxt_TextChanged(sender As Object, e As EventArgs) Handles GEKbTxt.TextChanged
-        GEKbLbl.Text = GEKbTxt.Text * 559 / 6 + 4.5
+        GEKbLbl.Text = GEKbTxt.Text * 97.66
     End Sub
 
     Private Sub HSCTxt_TextChanged(sender As Object, e As EventArgs) Handles HSCTxt.TextChanged
         HSCLbl.Text = HSCTxt.Text * 1142
     End Sub
-
+    'Total Sales
     Private Sub TotalSalesLbl2_Click(sender As Object, e As EventArgs) Handles TotalSalesLbl2.Click
+        TotalSalesLbl2.Text = Val(CBLbl.Text) + Val(CBbLbl.Text) + Val(CcLbl.Text) + Val(HTLbl.Text) + Val(HtbLbl.Text) +
+            Val(PAMBLbl.Text) + Val(PAMBbLbl.Text) + Val(PAMCLbl.Text) + Val(KRBLbl.Text) + Val(KRBbLbl.Text) + Val(KRCLbl.Text) + Val(SMZBLbl.Text) +
+            Val(SMZBbLbl.Text) + Val(SMLBLbl.Text) + Val(SMLBbLbl.Text) + Val(SMLCLbl.Text) + Val(FBLbl.Text) + Val(FBbLbl.Text) + Val(FBACLbl.Text) + Val(PPLbl.Text) +
+            Val(PPbLbl.Text) + Val(PPGLbl.Text) + Val(PPGBbLbl.Text) + Val(PLLbl.Text) + Val(PLbLbl.Text) + Val(RHSLbl.Text) + Val(RHSbLbl.Text) + Val(RHPLbl.Text) +
+            Val(RHPbLbl.Text) + Val(RHLLbl.Text) + Val(RHLbLbl.Text) + Val(RH500CLbl.Text) + Val(RHSLLbl.Text) + Val(RHSLbLbl.Text) + Val(SMFBLbl.Text) +
+            Val(SMFBbLbl.Text) + Val(SMFCLbl.Text) + Val(GE320Lbl.Text) + Val(GE320bLbl.Text) + Val(GEKLbl.Text) + Val(GEKbLbl.Text) + Val(HSCLbl.Text)
 
-        TotalSalesLbl2.Text = Val(CBLbl.Text) + Val(CBbLbl.Text)
+        If TotalSalesLbl2.Text = 00.00 Then
+            TotalSalesLbl2.Text = "Click to see the total"
+            MsgBox("Empty fields", vbInformation)
+        End If
     End Sub
 
     Private Sub ClearBtn_Click(sender As Object, e As EventArgs) Handles ClearBtn.Click
+        TotalSalesLbl2.Text = "Click to see the total"
+        CBLbl.Text = "00.00"
 
     End Sub
 

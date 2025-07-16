@@ -498,20 +498,21 @@ Partial Class Form2
         'TotalSalesLbl2
         '
         Me.TotalSalesLbl2.AutoSize = True
-        Me.TotalSalesLbl2.Font = New System.Drawing.Font("Arial Narrow", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TotalSalesLbl2.Location = New System.Drawing.Point(446, 535)
+        Me.TotalSalesLbl2.Font = New System.Drawing.Font("Arial Black", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TotalSalesLbl2.ForeColor = System.Drawing.Color.Green
+        Me.TotalSalesLbl2.Location = New System.Drawing.Point(438, 534)
         Me.TotalSalesLbl2.Name = "TotalSalesLbl2"
-        Me.TotalSalesLbl2.Size = New System.Drawing.Size(135, 20)
+        Me.TotalSalesLbl2.Size = New System.Drawing.Size(194, 23)
         Me.TotalSalesLbl2.TabIndex = 138
         Me.TotalSalesLbl2.Text = "Click to see the total"
         '
         'TotalSalesLbl
         '
         Me.TotalSalesLbl.AutoSize = True
-        Me.TotalSalesLbl.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TotalSalesLbl.Location = New System.Drawing.Point(330, 535)
+        Me.TotalSalesLbl.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TotalSalesLbl.Location = New System.Drawing.Point(303, 534)
         Me.TotalSalesLbl.Name = "TotalSalesLbl"
-        Me.TotalSalesLbl.Size = New System.Drawing.Size(100, 20)
+        Me.TotalSalesLbl.Size = New System.Drawing.Size(132, 23)
         Me.TotalSalesLbl.TabIndex = 137
         Me.TotalSalesLbl.Text = "TOTAL SALES"
         '
@@ -519,7 +520,7 @@ Partial Class Form2
         '
         Me.HSCLbl.AutoSize = True
         Me.HSCLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.HSCLbl.Location = New System.Drawing.Point(571, 472)
+        Me.HSCLbl.Location = New System.Drawing.Point(559, 472)
         Me.HSCLbl.Name = "HSCLbl"
         Me.HSCLbl.Size = New System.Drawing.Size(35, 16)
         Me.HSCLbl.TabIndex = 136
@@ -547,7 +548,7 @@ Partial Class Form2
         '
         Me.GEKbLbl.AutoSize = True
         Me.GEKbLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GEKbLbl.Location = New System.Drawing.Point(571, 449)
+        Me.GEKbLbl.Location = New System.Drawing.Point(559, 449)
         Me.GEKbLbl.Name = "GEKbLbl"
         Me.GEKbLbl.Size = New System.Drawing.Size(35, 16)
         Me.GEKbLbl.TabIndex = 133
@@ -575,7 +576,7 @@ Partial Class Form2
         '
         Me.GEKLbl.AutoSize = True
         Me.GEKLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GEKLbl.Location = New System.Drawing.Point(571, 425)
+        Me.GEKLbl.Location = New System.Drawing.Point(559, 425)
         Me.GEKLbl.Name = "GEKLbl"
         Me.GEKLbl.Size = New System.Drawing.Size(35, 16)
         Me.GEKLbl.TabIndex = 130
@@ -603,7 +604,7 @@ Partial Class Form2
         '
         Me.GE320bLbl.AutoSize = True
         Me.GE320bLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GE320bLbl.Location = New System.Drawing.Point(571, 403)
+        Me.GE320bLbl.Location = New System.Drawing.Point(559, 403)
         Me.GE320bLbl.Name = "GE320bLbl"
         Me.GE320bLbl.Size = New System.Drawing.Size(35, 16)
         Me.GE320bLbl.TabIndex = 127
@@ -631,7 +632,7 @@ Partial Class Form2
         '
         Me.GE320Lbl.AutoSize = True
         Me.GE320Lbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GE320Lbl.Location = New System.Drawing.Point(571, 380)
+        Me.GE320Lbl.Location = New System.Drawing.Point(559, 380)
         Me.GE320Lbl.Name = "GE320Lbl"
         Me.GE320Lbl.Size = New System.Drawing.Size(35, 16)
         Me.GE320Lbl.TabIndex = 124
@@ -659,7 +660,7 @@ Partial Class Form2
         '
         Me.Label80.AutoSize = True
         Me.Label80.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label80.Location = New System.Drawing.Point(571, 22)
+        Me.Label80.Location = New System.Drawing.Point(550, 22)
         Me.Label80.Name = "Label80"
         Me.Label80.Size = New System.Drawing.Size(54, 16)
         Me.Label80.TabIndex = 121
@@ -689,7 +690,7 @@ Partial Class Form2
         '
         Me.SMFCLbl.AutoSize = True
         Me.SMFCLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SMFCLbl.Location = New System.Drawing.Point(571, 357)
+        Me.SMFCLbl.Location = New System.Drawing.Point(559, 357)
         Me.SMFCLbl.Name = "SMFCLbl"
         Me.SMFCLbl.Size = New System.Drawing.Size(35, 16)
         Me.SMFCLbl.TabIndex = 118
@@ -717,7 +718,7 @@ Partial Class Form2
         '
         Me.SMFBbLbl.AutoSize = True
         Me.SMFBbLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SMFBbLbl.Location = New System.Drawing.Point(571, 334)
+        Me.SMFBbLbl.Location = New System.Drawing.Point(559, 334)
         Me.SMFBbLbl.Name = "SMFBbLbl"
         Me.SMFBbLbl.Size = New System.Drawing.Size(35, 16)
         Me.SMFBbLbl.TabIndex = 115
@@ -745,7 +746,7 @@ Partial Class Form2
         '
         Me.SMFBLbl.AutoSize = True
         Me.SMFBLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SMFBLbl.Location = New System.Drawing.Point(571, 311)
+        Me.SMFBLbl.Location = New System.Drawing.Point(559, 311)
         Me.SMFBLbl.Name = "SMFBLbl"
         Me.SMFBLbl.Size = New System.Drawing.Size(35, 16)
         Me.SMFBLbl.TabIndex = 112
@@ -773,7 +774,7 @@ Partial Class Form2
         '
         Me.RHSLbLbl.AutoSize = True
         Me.RHSLbLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RHSLbLbl.Location = New System.Drawing.Point(571, 287)
+        Me.RHSLbLbl.Location = New System.Drawing.Point(559, 287)
         Me.RHSLbLbl.Name = "RHSLbLbl"
         Me.RHSLbLbl.Size = New System.Drawing.Size(35, 16)
         Me.RHSLbLbl.TabIndex = 109
@@ -801,7 +802,7 @@ Partial Class Form2
         '
         Me.RHSLLbl.AutoSize = True
         Me.RHSLLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RHSLLbl.Location = New System.Drawing.Point(571, 263)
+        Me.RHSLLbl.Location = New System.Drawing.Point(559, 263)
         Me.RHSLLbl.Name = "RHSLLbl"
         Me.RHSLLbl.Size = New System.Drawing.Size(35, 16)
         Me.RHSLLbl.TabIndex = 106
@@ -829,7 +830,7 @@ Partial Class Form2
         '
         Me.RH500CLbl.AutoSize = True
         Me.RH500CLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RH500CLbl.Location = New System.Drawing.Point(571, 239)
+        Me.RH500CLbl.Location = New System.Drawing.Point(559, 239)
         Me.RH500CLbl.Name = "RH500CLbl"
         Me.RH500CLbl.Size = New System.Drawing.Size(35, 16)
         Me.RH500CLbl.TabIndex = 103
@@ -857,7 +858,7 @@ Partial Class Form2
         '
         Me.RHLbLbl.AutoSize = True
         Me.RHLbLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RHLbLbl.Location = New System.Drawing.Point(571, 215)
+        Me.RHLbLbl.Location = New System.Drawing.Point(559, 215)
         Me.RHLbLbl.Name = "RHLbLbl"
         Me.RHLbLbl.Size = New System.Drawing.Size(35, 16)
         Me.RHLbLbl.TabIndex = 100
@@ -885,7 +886,7 @@ Partial Class Form2
         '
         Me.RHLLbl.AutoSize = True
         Me.RHLLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RHLLbl.Location = New System.Drawing.Point(571, 191)
+        Me.RHLLbl.Location = New System.Drawing.Point(559, 191)
         Me.RHLLbl.Name = "RHLLbl"
         Me.RHLLbl.Size = New System.Drawing.Size(35, 16)
         Me.RHLLbl.TabIndex = 97
@@ -913,7 +914,7 @@ Partial Class Form2
         '
         Me.RHPbLbl.AutoSize = True
         Me.RHPbLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RHPbLbl.Location = New System.Drawing.Point(571, 167)
+        Me.RHPbLbl.Location = New System.Drawing.Point(559, 167)
         Me.RHPbLbl.Name = "RHPbLbl"
         Me.RHPbLbl.Size = New System.Drawing.Size(35, 16)
         Me.RHPbLbl.TabIndex = 94
@@ -941,7 +942,7 @@ Partial Class Form2
         '
         Me.RHPLbl.AutoSize = True
         Me.RHPLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RHPLbl.Location = New System.Drawing.Point(571, 143)
+        Me.RHPLbl.Location = New System.Drawing.Point(559, 143)
         Me.RHPLbl.Name = "RHPLbl"
         Me.RHPLbl.Size = New System.Drawing.Size(35, 16)
         Me.RHPLbl.TabIndex = 91
@@ -969,7 +970,7 @@ Partial Class Form2
         '
         Me.RHSbLbl.AutoSize = True
         Me.RHSbLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RHSbLbl.Location = New System.Drawing.Point(571, 119)
+        Me.RHSbLbl.Location = New System.Drawing.Point(559, 119)
         Me.RHSbLbl.Name = "RHSbLbl"
         Me.RHSbLbl.Size = New System.Drawing.Size(35, 16)
         Me.RHSbLbl.TabIndex = 88
@@ -997,7 +998,7 @@ Partial Class Form2
         '
         Me.RHSLbl.AutoSize = True
         Me.RHSLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RHSLbl.Location = New System.Drawing.Point(571, 95)
+        Me.RHSLbl.Location = New System.Drawing.Point(559, 95)
         Me.RHSLbl.Name = "RHSLbl"
         Me.RHSLbl.Size = New System.Drawing.Size(35, 16)
         Me.RHSLbl.TabIndex = 85
@@ -1025,7 +1026,7 @@ Partial Class Form2
         '
         Me.PLbLbl.AutoSize = True
         Me.PLbLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PLbLbl.Location = New System.Drawing.Point(571, 72)
+        Me.PLbLbl.Location = New System.Drawing.Point(559, 72)
         Me.PLbLbl.Name = "PLbLbl"
         Me.PLbLbl.Size = New System.Drawing.Size(35, 16)
         Me.PLbLbl.TabIndex = 82
@@ -1053,7 +1054,7 @@ Partial Class Form2
         '
         Me.PLLbl.AutoSize = True
         Me.PLLbl.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PLLbl.Location = New System.Drawing.Point(571, 48)
+        Me.PLLbl.Location = New System.Drawing.Point(559, 48)
         Me.PLLbl.Name = "PLLbl"
         Me.PLLbl.Size = New System.Drawing.Size(35, 16)
         Me.PLLbl.TabIndex = 79
