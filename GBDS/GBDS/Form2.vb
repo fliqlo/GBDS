@@ -224,12 +224,19 @@
             TotalSalesLbl2.Text = "Click to see the total"
             MsgBox("Empty fields", vbInformation)
         End If
+
     End Sub
 
     Private Sub ClearBtn_Click(sender As Object, e As EventArgs) Handles ClearBtn.Click
-        TotalSalesLbl2.Text = "Click to see the total"
-        CBLbl.Text = "00.00"
-
+        If CBTxt.Text = Val(CBbLbl.Text) Then
+            CBTxt.Text = " "
+            CBLbl.Text = 00.00
+            TotalSalesLbl2.Text = "Click to see the total"
+        End If
+        'If TotalSalesLbl2.Text = "Click to see the total" Then
+        'CBLbl.Text = "00.00"
+        'CBbTxt.Text = " "
+        'End If
     End Sub
 
     Private Sub PrintDocBtn_Click(sender As Object, e As EventArgs) Handles PrintDocBtn.Click
