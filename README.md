@@ -1,12 +1,12 @@
 This files is for documentation only. \
-**Encoded by:** encoder@gbds.org \
+**Encoded by:** encoder@gbds.org
 
-**Organization:** GBDS 2026 \
+**Organization:** GBDS 2026
 
 **Teams:** \
-**Dealer/Distributor:** Chiong, Rie \
+**Dealer/Distributor:** Chiong, Rie
 
-**TSS:** Baguio, Neilvin \
+**TSS:** Baguio, Neilvin
 
 **DSP:** 
 	 Dandayo, Ronnel \
