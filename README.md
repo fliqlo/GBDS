@@ -12,21 +12,21 @@ This files is for documentation only. \
 	 Dandayo, Ronnel \
 	 Pormento, Estemark \
 	 Gica, Grace \
-	 Podiotan, Air John \
+	 Podiotan, Air John
 
 **Driver:** Salig, Juliven \
 		Enclonar, Jerome \
-		Gomora, Jurlan \
+		Gomora, Jurlan
 
 **Truckman:** Baoc, Precillano \
 		  Salig, Jovani \
-		  Racaza, Alexander \
+		  Racaza, Alexander
 
-**Helper:** Podiotan, Air John \
+**Helper:** Podiotan, Air John
 
 **Checker:** Talledo, Sarah \
-		 Macatual, Glenn \
+		 Macatual, Glenn
 
-**Forklift Operator:**  Andapo, John \
+**Forklift Operator:**  Andapo, John
 
 **Encoder:** Dontar, Berlyn 
