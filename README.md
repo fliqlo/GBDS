@@ -6,27 +6,34 @@ This files is for documentation only. \
 **Teams:** \
 **Dealer/Distributor:** Chiong, Rie
 
-**TSS:** Baguio, Neilvin
+**TSS:** \
+	Baguio, Neilvin
 
-**DSP:** 
+**DSP:** \
 	 Dandayo, Ronnel \
 	 Pormento, Estemark \
 	 Gica, Grace \
 	 Podiotan, Air John
 
-**Driver:** Salig, Juliven \
+**Driver:** \
+		Salig, Juliven \
 		Enclonar, Jerome \
 		Gomora, Jurlan
 
-**Truckman:** Baoc, Precillano \
+**Truckman:** \
+		  Baoc, Precillano \
 		  Salig, Jovani \
 		  Racaza, Alexander
 
-**Helper:** Podiotan, Air John
+**Helper:** \
+		  Podiotan, Air John
 
-**Checker:** Talledo, Sarah \
+**Checker:** 
+		 Talledo, Sarah \
 		 Macatual, Glenn
 
-**Forklift Operator:**  Andapo, John
+**Forklift Operator:** \
+		Andapo, John
 
-**Encoder:** Dontar, Berlyn 
+**Encoder:** \
+		Dontar, Berlyn 
