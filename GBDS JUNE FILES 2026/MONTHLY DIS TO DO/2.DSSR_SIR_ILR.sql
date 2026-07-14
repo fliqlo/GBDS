@@ -1,2 +1,0 @@
-update [SMB.DIS.SERVER].[dbo].[DSSRHistory] set SIR = 0,ILR = 0,ilrcontainer = 0 ,total = 0 , 
-isfgs = case when (select top 1 productmaster_productgroup from productmasters p where p.id = DSSRHistory_ProductMaster  ) = 1 then 1 else 0 end
